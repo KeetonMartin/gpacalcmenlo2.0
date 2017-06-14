@@ -46,7 +46,7 @@ public class Main {
 
   public static void main(String[] args) throws Exception 
 	{
-		//create scanner
+		/*//create scanner
 		Scanner console = new Scanner(System.in);
 		
 		ArrayList<String> Grades = new ArrayList<String>();
@@ -171,7 +171,9 @@ public static double convert(String Grade)
 			value = -1;
 		}
 		return value;
-	}
+	}*/
+	SpringApplication.run(Main.class, args)l
+}
 
   @RequestMapping("/")
   String index() {
